@@ -147,6 +147,75 @@ header > h1 {
   margin: 20px auto;
 }
 
+@media (max-width: 760px) {
+  .choices {
+    margin: 20px 0;
+  }
+
+  .choice {
+    padding: 15px;
+    margin: 0 10px;
+    width: 100px;
+  }
+
+  .choice > img {
+    width: 50px;
+  }
+
+  #action-message {
+    font-size: 25px;
+  }
+
+  .score-board {
+    width: 150px;
+    font-size: 30px;
+  }
+
+  .rules-container {
+    width: 80%;
+  }
+
+  .rules-container p, .rules-container ul {
+    margin: 10px;
+  }
+
+  .rules-container {
+    padding: 5px;
+  }
+
+  .rules-container h2 {
+    font-size: 20px;
+  } 
+
+  .rules-container ul {
+    font-size: 15px;
+  }
+
+  .result {
+    font-size: 30px;
+  }
+
+  .result > p {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 150px;
+  }
+
+  #reset-game-btn {
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 150px;
+  }
+
+}
+
+
+
+
 footer {
   background-color: hotpink;
   padding: 20px;
