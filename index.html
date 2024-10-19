@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+  <header>
+    <h1>Rock ✊ Paper ✋ Scissors ✌️</h1>
+  </header>
+
+  <details class="rules-container">
+    <summary>Rules to the game</summary>
+
+    <p>You will be playing against the computer.</p>
+    <p>You can choose between Rock, Paper, and Scissors.</p>
+    <p>The first one to three points wins.</p>
+
+    <p>Here are the rules to getting a point in the game:</p>
+    <ul>
+      <li>Rock beats Scissors</li>
+      <li>Scissors beats Paper</li>
+      <li>Paper beats Rock</li>
+    </ul>
+    <p>
+      If the player and computer choose the same option (Ex. Paper and
+      Paper), then no one gets the point.
+    </p>
+  </details>
+
+  <div class="score-board">
+    <div id="user-label" class="badge">user 👩🏻‍🎤</div>
+    <div id="computer-label" class="badge">comp 🤖</div>
+    <span id="user-score">0</span>:<span id="computer-score">0</span>
+  </div>
+
+  <p id="action-message">Make your move</p>
+  
+  <div class="choices" id="choices">
+    <div class="choice" id="rock">
+      <img src="images/rock.png" alt="rock">
+    </div>
+    <div class="choice" id="paper">
+      <img src="images/paper.png" alt="paper">
+    </div>
+    <div class="choice" id="scissors">
+      <img src="images/scissors.png" alt="scissors">
+    </div>
+  </div>
+
+  <div class="result">
+    <p></p>
+        <button class="btn" id="reset-game-btn">Play again?</button>
+  </div>
+
+  <footer>
+    <p>Code by Kunnikar 👩🏻‍💻 </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
